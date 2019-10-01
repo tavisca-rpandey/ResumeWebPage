@@ -1,0 +1,176 @@
+.containers{
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:0px #ccc solid;
+    padding: 1%;  
+    width: 1024px;
+
+}
+
+.top{
+    border:0px #ccc solid;
+
+    display: flex;
+    flex:3;
+    justify-content: center;
+    background-color:#ccc;
+    padding: 2%;
+
+}
+
+.mid{
+    border:0px #ccc solid;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    justify-items: center;
+    padding: 1%;    
+
+
+
+}
+
+.bottom{
+    border:0px #ccc solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;    
+
+
+}
+
+img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    border:5px #000 solid;
+
+  }
+
+#name{
+    border:1px #000 solid;
+    margin: 5px;
+    padding-top: 30px;
+    background-color:#fff;
+    flex-grow:1;
+    text-align: center;
+
+}
+#name_wrap{
+    width:33%;
+    display: flex;
+    padding: 3;
+    background-color:#fff;
+
+
+}
+
+#one{
+    flex-grow:1;
+    flex-basis: 33%;
+    padding: 1%;    
+    border:0px #ccc solid;
+
+
+}
+
+#two{
+    flex-grow:1;
+    flex-basis: 33%;
+    flex-direction: column;
+    padding: 1%;  
+    border:0px #ccc solid;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-items: center;
+  
+
+}
+#belt1{
+    margin-top: 102px;
+    background-color: #fff;
+    border:1px #000 solid ;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#belt2{
+    background-color: sandybrown;
+    border:1px #000 solid ;
+    margin-top: 45px;
+    text-align: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#belt3{
+    background-color: #fff;
+    border:1px #000 solid ;
+    margin-top: 96px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#three{
+    flex-grow:1;
+    flex-basis: 33%;
+    padding: 1%;
+    border:0px #ccc solid;
+
+
+}
+
+
+#ny{
+    height: 75px;
+    padding: 25px;
+    background-color: sandybrown;
+    margin:5px;
+}
+
+#one_sp{
+    margin-top: 60px;
+    flex-grow:1;
+    flex-basis: 33%;
+    padding: 1%;    
+    border:0px #ccc solid;
+
+
+}
+
+#two_spl{
+    background-color: sandybrown;
+    border:1px #000 solid ;
+    text-align: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 300px;
+}
+
+#three_sp{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    flex-basis: 33%;
+    padding: 1%;
+    border:0px #ccc solid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+
+
+
+}
